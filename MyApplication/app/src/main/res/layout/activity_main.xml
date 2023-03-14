@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <EditText
+        android:id="@+id/TextA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Invalid input"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/TextB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Invalid input"
+        android:textSize="20sp" />
+
+    <LinearLayout
+        android:layout_width="338dp"
+        android:layout_height="243dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Sumar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="sumar"
+            android:text="Sumar" />
+
+        <Button
+            android:id="@+id/Restar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Restar"
+            android:text="Restar" />
+
+        <Button
+            android:id="@+id/Dividir"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Dividir"
+            android:text="Dividir" />
+
+        <Button
+            android:id="@+id/Multiplicar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Multiplicar"
+            android:text="Multiplicar" />
+
+        <Button
+            android:id="@+id/Factorial"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Factorial" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="271dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/Resultado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Invalid input"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
