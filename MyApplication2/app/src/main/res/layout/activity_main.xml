@@ -29,16 +29,15 @@
                 android:id="@+id/Solucion"
                 android:layout_width="208dp"
                 android:layout_height="wrap_content"
-                android:onClick="Fibonacci"
+                android:onClick="Boton"
                 android:text="Resultado" />
 
-            <TextView
-                android:id="@+id/Resultado"
-                android:layout_width="131dp"
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Resultado"
-                android:textColor="#000000"
-                android:textSize="24sp" />
+                app:srcCompat="@drawable/ic_launcher_foreground" />
+
         </LinearLayout>
     </LinearLayout>
 
